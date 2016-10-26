@@ -1,0 +1,23 @@
+.root {
+    -fx-background-image: url("../img/background.png");
+    -fx-font-size: 16pt;
+    -fx-font-family: "Courier New";  
+}
+
+.button {
+    -fx-text-fill: whitesmoke;
+   -fx-background-color: firebrick;
+-fx-font-size: 16pt;
+   -fx-padding: 10;
+}
+
+.button:hover{
+    -fx-background-color: #ff6666;
+-fx-font-size: 16pt;
+    -fx-padding: 15;
+}
+
+.label{
+     -fx-font-size: 12pt;
+     -fx-font-weight: bolder;
+}
